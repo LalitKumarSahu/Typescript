@@ -81,3 +81,17 @@ if(person.role === Role.AUTHOR){
 }else if(person.role === Role.READ_USER_ONLY){
    console.log("Read user only");
 }
+
+//--------------->
+let firstName : string;
+let age : number;
+firstName = "lk"
+age = 22;
+
+const person : {
+    firstName : string;
+    age : number;
+}= {
+  firstName:"lk",
+  age:18,
+}
