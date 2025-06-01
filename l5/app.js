@@ -6,8 +6,8 @@ userInput = "lalit";
 if (typeof userInput === "string") {
     userName = userInput;
 }
-function generateaError(message, code) {
+function generateError(message, code) {
     throw { message: message, statusCode: code };
 }
-var res = generateaError("Internal server error", 500);
+var res = generateError("Internal server error", 500);
 console.log(res);

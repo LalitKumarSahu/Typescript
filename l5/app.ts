@@ -9,8 +9,8 @@ if(typeof userInput === "string"){
   userName = userInput;
 }
 
-function generateaError(message : string, code : number) : never{
+function generateError(message : string, code : number) : never{
   throw {message : message, statusCode : code}
 }
-const res = generateaError("Internal server error", 500);
+const res = generateError("Internal server error", 500);
 console.log(res);
